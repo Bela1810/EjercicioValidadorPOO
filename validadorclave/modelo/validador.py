@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class ReglaValidacion(ABC):
-    __longitud_esperada: int
+    _longitud_esperada: int
 
     def _init_(self, longitud_esperada: int):
         self.longitud_esperada: int = longitud_esperada
